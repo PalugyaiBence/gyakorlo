@@ -1,0 +1,86 @@
+body{
+    background: rgb(75, 152, 2);
+    
+  }
+  img{
+    padding: 1rem;
+    height: 350px;
+  }
+  
+  p{
+    flex-direction: column;
+  }
+  label{
+    margin-top: 20px;
+    padding: 2rem;
+    cursor: pointer;
+    background: #b9b9b9;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  #quiz{
+    display: inline;
+  }
+  #quiz:checked ~ label
+  .question {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    height: 20px;
+    flex-direction:column;
+    padding: 20px;
+  }
+  .option {
+    margin-bottom: 30px;
+    font-size: 10px;
+    border-radius: 20px;
+  }
+  input[type="submit"]{
+    border-radius: 30px;
+    color: #585858;
+    font-size: 15px;
+    background: #b9b9b9;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    width: 180px;
+    height: 55px;
+    margin-left: 5px;
+  }
+  .button,.submit {
+    color: #585858;
+    padding: 0.7em 1.5em;
+    background: #b9b9b9;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .button:active, .submit:active {
+    color: #525252;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  
+  .result,.retry {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .retry{
+    border-radius: 20px;
+  }
+  .hide{
+    display: none;
+  }
+  
